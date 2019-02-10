@@ -1,7 +1,6 @@
 ul {
     display: flex;
     justify-content: space-between;
-    padding-top: -15px;
 }
 
 ul li:nth-child(1) {
@@ -38,4 +37,5 @@ body::before {
     display: flex;
     justify-content: center;
     padding-left: 25px;
+    padding-bottom: 0px;
 }
