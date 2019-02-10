@@ -1,7 +1,24 @@
 ul {
     display: flex;
+    justify-content: space-between;
 }
 
-ul li {
-    padding: 20px;
+ul li:nth-child(1) {
+    order: 5;
+}
+
+ul li:nth-child(2) {
+    order: 4;
+}
+
+ul li:nth-child(4) {
+    order:3;
+}
+
+ul li:nth-child(5) {
+    order:2;
+}
+
+ul li:nth-child(3) {
+    order: 1;
 }
